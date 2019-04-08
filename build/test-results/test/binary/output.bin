@@ -1,0 +1,10 @@
+) vectorABX -2 vectorBCX -1 vectorACX -3
+P edgeAB 2.8284271247461903 edgeAC 3.1622776601683795 edgeBC 3.1622776601683795
+* vectorABX 2 vectorBCX -67 vectorACX -65
+L edgeAB 2.23606797749979 edgeAC 65.12296062065974 edgeBC 67.06713054842886
+( vectorABX 2 vectorBCX -4 vectorACX -2
+= edgeAB 2.23606797749979 edgeAC 4.47213595499958 edgeBC 5.0
+( vectorABX -2 vectorBCX 0 vectorACX -2
+A edgeAB 2.8284271247461903 edgeAC 2.8284271247461903 edgeBC 4.0
+) vectorABX -1 vectorBCX -2 vectorACX -3
+? edgeAB 2.23606797749979 edgeAC 5.0 edgeBC 2.8284271247461903
