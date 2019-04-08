@@ -13,7 +13,6 @@ public class TriangleTest {
     public void test_isSquare() {
         Triangle triangle = new Triangle(2,0,4,3,2,-1);
         assertTrue(triangle.isSquare());
-
     }
 
     @Test

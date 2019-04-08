@@ -42,8 +42,7 @@ public class Triangle{
     }
 
     public String getType() {
-        System.out.println(" vectorABX "+vectorABX+" vectorBCX "+vectorBCX +" vectorACX "+vectorACX);
-        System.out.println(" edgeAB "+edgeAB+" edgeAC "+edgeAC +" edgeBC "+edgeBC);
+
         if (isSquareIsosceles()) {
             return "SQUARE_ISOSCELES";
         } else if (isEquilateral()) {
@@ -60,7 +59,7 @@ public class Triangle{
     public double getArea() {
         double s;
         double p = getPerimeter()/2.0;
-        s= Math.sqrt(p * (p-edgeAB) * (p-edgeAC) * (p-edgeBC));
+        s = Math.sqrt(p * (p-edgeAB) * (p-edgeAC) * (p-edgeBC));
         return s;
     }
 
