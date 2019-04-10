@@ -1,4 +1,4 @@
-public class Triangle{
+class Triangle{
 
     private int xA;         //x coordinates of vertex A
     private int xB;         //x coordinates of vertex B
@@ -26,7 +26,7 @@ public class Triangle{
         getAllValueForTriangle();
     }
 
-    public void getAllValueForTriangle(){
+    private void getAllValueForTriangle(){
         vectorABX = xA - xB;
         vectorBCX = xB - xC;
         vectorACX = xA - xC;
@@ -37,7 +37,7 @@ public class Triangle{
         edgeBC = getEdgeLength(vectorBCX, vectorBCY);
         edgeAC = getEdgeLength(vectorACX , vectorACY);
     }
-    public double getEdgeLength(int vectorX, int vectoY) {
+    private double getEdgeLength(int vectorX, int vectoY) {
         return Math.sqrt((double)(vectorX * vectorX) + (vectoY * vectoY));
     }
 
@@ -79,11 +79,11 @@ public class Triangle{
                     || vectorBCX * vectorBCX + vectorBCY * vectorBCY == vectorACX * vectorACX + vectorACY * vectorACY);
     }
 
-    public boolean isSquareIsosceles() {
+    private boolean isSquareIsosceles() {
         return (isSquare() && isIsosceles());
     }
 
-    public boolean isEquilateral() {
+    private boolean isEquilateral() {
         return (vectorABX * vectorABX + vectorABY * vectorABY == vectorACX * vectorACX + vectorACY * vectorACY
                 && vectorABX * vectorABX + vectorABY * vectorABY == vectorBCX * vectorBCX + vectorBCY * vectorBCY);
     }
