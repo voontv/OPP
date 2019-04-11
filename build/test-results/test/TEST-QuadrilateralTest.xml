@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="QuadrilateralTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-04-10T13:05:17" hostname="DESKTOP-5KFV8OK" time="0.004">
+  <properties/>
+  <testcase name="test_getPerimeter_Triangle" classname="QuadrilateralTest" time="0.002"/>
+  <testcase name="test_getArea" classname="QuadrilateralTest" time="0.001"/>
+  <testcase name="test_getArea_Triangle" classname="QuadrilateralTest" time="0.0"/>
+  <testcase name="test_getPerimeter" classname="QuadrilateralTest" time="0.0"/>
+  <testcase name="test_QuadrilateralTest" classname="QuadrilateralTest" time="0.001"/>
+  <system-out><![CDATA[area1 8.0  area2 8.0
+Quadrilateral
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

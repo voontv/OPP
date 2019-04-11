@@ -1,4 +1,5 @@
 class Quadrilateral implements Shape{
+
     private int xA;         //x coordinates of vertex A
     private int xB;         //x coordinates of vertex B
     private int xC;         //x coordinates of vertex C
@@ -39,6 +40,7 @@ class Quadrilateral implements Shape{
         int vectorBDY = yB - yD;
         int vectorACX = xA - xC;
         int vectorACY = yA - yC;
+
         edgeAB = getEdgeLength(vectorABX, vectorABY);
         edgeBC = getEdgeLength(vectorBCX, vectorBCY);
         edgeCD = getEdgeLength(vectorCDX, vectorCDY);
@@ -58,14 +60,13 @@ class Quadrilateral implements Shape{
     public double getArea() {
         double area1 = getAreaTriangle(edgeAB, edgeAD, edgeBD) + getAreaTriangle(edgeBC, edgeCD, edgeBD);
         double area2 = getAreaTriangle(edgeAD, edgeAC, edgeCD) + getAreaTriangle(edgeBD, edgeBC, edgeCD);
-        System.out.println("area1 "+area1+"  area2 "+area2);
         return minArea(area1, area2);
     }
 
     public double getAreaTriangle(double edgeAB, double edgeAC, double edgeBC) {
         double s;
-        double p = getPerimeterTriangle(edgeAB, edgeAC, edgeBC)/2.0;
-        s = Math.sqrt(p * (p-edgeAB) * (p-edgeAC) * (p-edgeBC));
+        double p = getPerimeterTriangle(edgeAB, edgeAC, edgeBC) / 2.0;
+        s = Math.sqrt(p * (p - edgeAB) * (p - edgeAC) * (p - edgeBC));
         return s;
     }
 

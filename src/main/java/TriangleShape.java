@@ -42,7 +42,7 @@ class TriangleShape implements Shape{
     public double getArea() {
         double s;
         double p = getPerimeter()/2.0;
-        s = Math.sqrt(p * (p-edgeAB) * (p-edgeAC) * (p-edgeBC));
+        s = Math.sqrt(p * (p - edgeAB) * (p - edgeAC) * (p - edgeBC));
         return s;
     }
 

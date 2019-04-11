@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CircleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-04-10T13:05:17" hostname="DESKTOP-5KFV8OK" time="0.01">
+  <properties/>
+  <testcase name="test_Circle" classname="CircleTest" time="0.009"/>
+  <testcase name="test_getArea" classname="CircleTest" time="0.0"/>
+  <testcase name="test_getPerimeter" classname="CircleTest" time="0.0"/>
+  <system-out><![CDATA[Circle have center (3, 4)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
