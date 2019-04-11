@@ -9,10 +9,7 @@ public class StrategyShape {
         StrategyShape strategyShape = new StrategyShape();
         List<String> stringLis = new ArrayList<>();
         Scanner scanner = new Scanner((System.in));
-        //int n = scanner.nextInt();
-        //scanner.close();
 
-        //for(int i =0; i<n; i++) {
         for(int i =0; i<5; i++) {
             String parameters = scanner.nextLine();
             scanner.close();

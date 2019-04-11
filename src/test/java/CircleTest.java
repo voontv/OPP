@@ -6,7 +6,7 @@ public class CircleTest {
 
     @Test
     public void test_Circle() {
-        Circle circle = new Circle(3,4,6);
+        Circle circle = new Circle(3,8,6);
         circle.showInfo();
     }
 

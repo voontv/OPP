@@ -54,7 +54,7 @@ class Quadrilateral implements Shape{
     }
 
     public void showInfo() {
-        System.out.println("Quadrilateral");
+        System.out.println("Quadrilateral" +" have area "+getArea() +" and Perimeter "+getPerimeter());
     }
 
     public double getArea() {

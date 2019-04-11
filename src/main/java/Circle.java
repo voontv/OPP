@@ -11,7 +11,9 @@ public class Circle implements Shape {
     }
 
     public void showInfo() {
-        System.out.println("Circle have center (" +circleX+", "+circleY+")");
+        System.out.println("Circle have center (" +circleX+", "+circleY+"), radius "+circleR
+                +" have area "+getArea()
+                +" and Perimeter "+getPerimeter());
     }
 
     public double getArea() {

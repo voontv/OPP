@@ -6,7 +6,7 @@ public class QuadrilateralTest {
 
     @Test
     public void test_QuadrilateralTest() {
-        Quadrilateral quadrilateral = new Quadrilateral(2,46,3,7,1,8,9,21);
+        Quadrilateral quadrilateral = new Quadrilateral(2,35,3,7,1,8,9,21);
         quadrilateral.showInfo();
     }
 

@@ -36,7 +36,7 @@ class TriangleShape implements Shape{
     }
 
     public void showInfo() {
-        System.out.println("Triangle");
+        System.out.println("Triangle " +"have area "+getArea() +" and Perimeter "+getPerimeter());
     }
 
     public double getArea() {

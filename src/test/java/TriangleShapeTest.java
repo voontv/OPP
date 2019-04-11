@@ -6,7 +6,7 @@ public class TriangleShapeTest {
 
     @Test
     public void test_TriangleShape() {
-        TriangleShape triangleShape = new TriangleShape(1,2,4,6,8,10);
+        TriangleShape triangleShape = new TriangleShape(1,2,8,6,8,10);
         triangleShape.showInfo();
     }
 
