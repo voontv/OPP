@@ -10,9 +10,8 @@ public class StrategyShape {
         List<String> stringLis = new ArrayList<>();
         Scanner scanner = new Scanner((System.in));
 
-        for(int i =0; i<5; i++) {
+        for(int i =0; i<3; i++) {
             String parameters = scanner.nextLine();
-            scanner.close();
             ShapeFactory shapeFactory = new ShapeFactory(parameters);
             shapeArrayList.add(shapeFactory.shape);
         }

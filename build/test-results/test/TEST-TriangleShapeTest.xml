@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TriangleShapeTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-04-11T03:20:39" hostname="DESKTOP-5KFV8OK" time="0.009">
+  <properties/>
+  <testcase name="test_TriangleShape" classname="TriangleShapeTest" time="0.009"/>
+  <testcase name="test_getArea" classname="TriangleShapeTest" time="0.0"/>
+  <testcase name="test_getPerimeter" classname="TriangleShapeTest" time="0.0"/>
+  <system-out><![CDATA[Triangle have area 5.00000000000001 and Perimeter 16.6228810461351
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
